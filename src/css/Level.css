@@ -1,0 +1,44 @@
+.difficulty{
+    justify-content: center;
+    margin-bottom: 10px;
+    position: relative;
+    width: 55px;
+    text-align: center;
+}
+.difficulty input{
+    color: inherit;
+    background-color: #338c68;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 14px;
+    position: relative;
+    border: 3px solid #1a1a1a;
+    box-sizing: border-box;
+}
+
+.difficulty::before{
+    content: 'Lvl';
+    color: black;
+    position: absolute;
+    left: -30px;
+    width: 30px;
+    height: 15px;
+    top: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.level-buttons button{
+    padding: 0;
+    border: none;
+    margin: 0;
+    text-align: center;
+    border-radius: 15px;
+    height: 25px;
+    width: 25px;
+    border: 3px solid #1a1a1a;
+    box-sizing: border-box;
+}

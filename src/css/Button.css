@@ -1,0 +1,86 @@
+button {
+    width: 50%;
+    height: 100%;
+    transition: all ease-in-out 300ms;
+}
+.snake-buttons-bg{
+    width: 115%;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    top: -5px;
+    transform: rotateX(20deg);
+    background-color: lightgray;
+    border: 5px solid #1a1a1a;
+}
+
+.snake-buttons-side{
+    height: 100%;
+    width: 40px;
+    position: absolute;
+    background-color: lightgray;
+    border: 5px solid #1a1a1a;
+    top: -5px;
+    transform: rotateX(20deg);
+}
+.snake-buttons-side.left{
+    left: -13%;
+    top: -6px;
+    transform: matrix(-0.4,1.8,0.4,0,1,1);
+}
+
+.snake-buttons-side.right {
+    right: -12%;
+    top: -7px;
+    transform: matrix(0.3,1.8,0.4,0,1,1);
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.game_button{
+    width: 45px;
+    height: 45px;
+    color: lightgray;
+    border-radius: 100%;
+    font-family: 'terminal_grotesque', Arial;
+    border: 3px solid #1a1a1a;
+    box-sizing: border-box;
+}
+#start {
+    background-color: #18880d;
+}
+
+#stop {
+    background-color: #ff9422 ;
+    color: black;
+}
+
+#reset {
+    background-color: #004895 ;
+}
+
+.snake-bottom{
+    position: absolute;
+    height: 100%;
+    width: 115%;
+    background-color: lightgray;
+    top: 100%;
+    border: 5px solid #1a1a1a;
+}
+
+.snake-bottom-side{
+    position: absolute;
+    height: 100%;
+    width: 30px;
+    background-color: lightgray;
+    top: 100%;
+    border: 5px solid #1a1a1a;
+}
+.snake-bottom-side.left{
+    left: -14%;
+}
+.snake-bottom-side.right {
+    right: -13%;
+}

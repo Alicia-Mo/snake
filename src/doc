@@ -1,0 +1,20 @@
+Onclick sur le boutton start pour le début de la partie
+Onclick sur le boutton stop pour arrêter la partie
+onclik pour choisir le niveau de difficulté
+Ontouchup/down... pour le mouvement du serpent
+
+// Composants :
+Gameboard
+    enfants : difficulté, snake-board, bouttons, score
+
+Snake-board
+    enfants : Points, snake
+
+
+// CSS
+Dynamique :
+couleur des points (array de codes hexa?)
+position des points (math random pour les coordonnées ?)
+position du snake selon keyboard touch
+Nb de points dans le score (injecté en props)
+Etat de boutton (disabled si en pause ou non)
